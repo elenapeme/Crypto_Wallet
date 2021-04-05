@@ -1,0 +1,14 @@
+#container-header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(5px + 2vmin);
+    color: black;
+}
+
+#logo {
+    padding-right: 1vw;
+    width: calc(5px + 5vmin);
+}
