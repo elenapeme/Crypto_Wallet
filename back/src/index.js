@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const routes = require("./routes/routes");
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
@@ -8,6 +9,7 @@ const jsonwebtoken = require("jsonwebtoken");
 const { userMongo, passwordMongo, port } = require("../config/config");
 
 const app = express();
+app.use(cors());
 
 // Connect to DB and opens port
 (async () => {

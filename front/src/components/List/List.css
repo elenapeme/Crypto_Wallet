@@ -1,0 +1,57 @@
+p {
+    margin-bottom: 0;
+}
+#wrapper-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.date-list {
+    display: flex;
+    padding-top: 2vw;
+    padding-left: 4vw;
+    color: #858585;
+}
+
+.info-list {
+    display: flex;
+    width: 98.7vw;
+    background-color: white;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+}
+
+.download-arrow {
+    margin-left: 4vw;
+}
+
+.info-received {
+    font-weight: bold;
+}
+
+.info-summary {
+    display: flex;
+    width: 81vw;
+    justify-content: space-between;
+    margin-left: 2vw;
+}
+
+.btt {
+    color: rgb(23, 155, 23);
+    font-weight: 600;
+}
+
+.dollars {
+    font-weight: bold;
+}
+
+.received-data {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.currency-data {
+    display: flex;
+    flex-direction: column;
+}

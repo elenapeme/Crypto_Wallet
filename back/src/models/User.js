@@ -8,11 +8,4 @@ const userSchema = new Schema({
     assets: Array
 });
 
-// Check if password is correct
-userSchema.methods.validPassword = (password) => {
-    //bcrypt.compareSync(password, this.password);
-    console.log("this.password", this.password);
-    console.log("password", password);
-}
-
 module.exports = mongoose.model("user", userSchema, "users");

@@ -4,5 +4,12 @@
 }
 
 #card-graph {
-    width: 50rem;
+    width: 93vw;
+}
+
+#icon-arrow {
+    width: 1rem;
+    margin-bottom: 0.3rem;
+    margin-right: 0.5rem;
+    color: white;
 }
